@@ -1,0 +1,35 @@
+#editor {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 80vh;
+    width: 90vw;
+    border: 10px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    overflow-y: scroll;
+}
+
+.toolbar {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.toolbar button {
+    margin: 0 5px;
+    padding: 4px;
+}
+
+.toolbar label {
+    margin-left: 10px;
+}
+
+img{
+    height: 200px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Editor</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="toolbar">
+        <div id="biu">
+            <button id="bold"><b>B</b></button>
+            <button id="italic"><i>I</i></button>
+            <button id="underline"><u>U</u></button>
+        </div>
+
+        <div id="intend">
+            <button id="justify-left"><i class='bx bx-align-left' ></i></button>
+            <button id="justify-middle"><i class='bx bx-align-middle' ></i></button>
+            <button id="justify-right"><i class='bx bx-align-right' ></i></button>
+            <button id="justify-full"><i class='bx bx-align-justify' ></i></button>
+        </div>
+        
+        <label>Font:
+            <select id="font-family">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+            </select>
+        </label>
+        <div>
+            <button id="bullets" name="bullets" class=""><i class='bx bx-list-ul'></i></button>
+            <button id="bullets-ol" name="bullets-ol" class=""><i class='bx bx-list-ol'></i></button>
+        </div>
+        <input type="file" name="Image Upload" id="upload-image" accept="Image/*" >
+        <label>Font Size:
+            
+            <select id="font-size">
+                <option value="" selected="" hidden="" disabled="">Font size</option>
+                <option value="1">Extra small</option>
+                <option value="2">Small</option>
+                <option value="3">Regular</option>
+                <option value="4">Medium</option>
+                <option value="5">Large</option>
+                <option value="6">Extra Large</option>
+                <option value="7">Big</option>
+            </select>
+        </label>
+        <label>Font Color:
+            <input type="color" id="font-color">
+        </label>
+        <label>Highlight Color:
+            <input type="color" id="font-hlt">
+        </label>
+        <button id="download">Print</button>     
+    </div>
+    <div class="" contenteditable="true" placeholder="Write Something" id="editor">
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
